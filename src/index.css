@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    [data-theme="default"] {
+        --my-main-bg: hsl(222, 26%, 31%);
+        --my-keypad-bg: hsl(223, 31%, 20%);
+        --my-screen-bg: hsl(224, 36%, 15%);
+        --my-key-opt-bg: hsl(225, 21%, 49%);
+        --my-key-opt-shadow: hsl(224, 28%, 35%);
+        --my-key-toggle-bg: hsl(6, 63%, 50%);
+        --my-key-toggle-shadow: hsl(6, 70%, 34%);
+        --my-key-main-bg: hsl(30, 25%, 89%);
+        --my-key-main-shadow: hsl(28, 16%, 65%);
+        --my-text-screen: hsl(0, 0, 100%);
+        --my-text-equal: hsl(0, 0, 100%);
+        --my-text-option: hsl(0, 0, 100%);
+        --my-text-keypad: hsl(221, 14%, 31%);
+    }
+
+    [data-theme="light"]{
+        --my-main-bg: hsl(0, 0%, 90%);
+        --my-keypad-bg: hsl(0, 5%, 81%);
+        --my-screen-bg: hsl(0, 0%, 93%);
+        --my-key-opt-bg: hsl(185, 42%, 37%);
+        --my-key-opt-shadow: hsl(185, 58%, 25%);
+        --my-key-toggle-bg: hsl(25, 98%, 40%);
+        --my-key-toggle-shadow: hsl(25, 99%, 27%);
+        --my-key-main-bg: hsl(45, 7%, 89%);
+        --my-key-main-shadow: hsl(35, 11%, 61%);
+        --my-text-screen: hsl(60, 10%, 19%);
+        --my-text-keypad: hsl(0, 0, 100%);
+        --my-text-option: hsl(0, 0, 100%);
+        --my-text-equal: hsl(0, 0, 100%);
+    }
+
+    [data-theme="contrast"]{
+        --my-main-bg: hsl(268, 75%, 9%);
+        --my-keypad-bg: hsl(268, 71%, 12%);
+        --my-screen-bg: hsl(268, 71%, 12%);
+        --my-key-opt-bg: hsl(281, 89%, 26%);
+        --my-key-opt-shadow: hsl(285, 91%, 52%);
+        --my-key-toggle-bg: hsl(176, 100%, 44%);
+        --my-key-toggle-shadow: hsl(177, 92%, 70%);
+        --my-key-main-bg: hsl(268, 47%, 21%);
+        --my-key-main-shadow: hsl(290, 70%, 36%);
+        --my-text-screen: hsl(52, 100%, 62%);
+        --my-text-keypad: hsl(52, 100%, 62%);
+        --my-text-special: hsl(0, 0, 100%);
+        --my-text-equal: hsl(198, 20%, 13%);
+    }
+}
