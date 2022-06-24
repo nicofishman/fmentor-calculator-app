@@ -4,6 +4,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
+                'primary-dark': '#0A0A0A',
                 'main-bg': 'var(--my-main-bg)',
                 'keypad-bg': 'var(--my-keypad-bg)',
                 'screen-bg': 'var(--my-screen-bg)',
@@ -20,5 +21,5 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: []
 };
